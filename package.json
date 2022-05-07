@@ -8,7 +8,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "electron": "ng build && cp -f preload.js renderer.js dist/electron-angular-app && electron ."
+    "electron": "ng build && ELECTRON_DISABLE_SECURITY_WARNINGS=true electron ."
   },
   "private": true,
   "dependencies": {
