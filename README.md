@@ -8,6 +8,9 @@ Electron was added with 'npm install --save electron'
 # ATTENTION
 Run 'npm audit fix --force' if errors appear
 
+## Run as Desktop application
+Run 'npm run electron'. Check package.json.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
